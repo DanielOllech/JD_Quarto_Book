@@ -62,6 +62,10 @@ These specifications can be saved and reused across series.
   
 ![**JD3 with specifications open**](All_images/JDspecification.png)  
 
+### Estimation specification and reference specification
+
+The specification you define for an SA-item is called the estimation specification. At the same time, you can define a reference specification that will be a applied in annual campaigns (the annual evaluation of the specifications and results) as a reference or as the starting point for finding a new optimal parameter constellation. How the specifications are defined will be adapted in one of the next releases of JDemetra+, therefore, we will not go into further details here.
+
 
 ## Data import
 
@@ -77,9 +81,6 @@ From Excel
 
 Full documentation of the Seats method can be found [here](https://jdemetra-new-documentation.netlify.app/m-x11-decomposition), while all details on X-11 can be found [here](https://jdemetra-new-documentation.netlify.app/m-x11-decomposition).
 
-## Specifications
-
-Discuss reference spec vs current spec
 
 ## Export the data
 
