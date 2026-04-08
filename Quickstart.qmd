@@ -1,7 +1,6 @@
-# JDemetra+-Quickstart for the graphical user interface (GUI) { .unnumbered #quickstart}
+# JD+-Quickstart {.unnumbered #quickstart}
 
-
-The sections below will briefly describe the steps involved in installing JDemetra+, uploading the data, perform seasonal adjustment and export the data. The guide is intended for a novice user, hence it does not dwell on the theoretical aspects of seasonal adjustment. 
+The sections below will briefly describe the steps involved in installing JDemetra+, uploading the data, perform seasonal adjustment using the graphical user interface (GUI) of JDemetra+ version 3 and export the data. The guide is intended for a novice user, hence it does not dwell on the theoretical aspects of seasonal adjustment. 
 
 -   How to install JDemetra+
 
