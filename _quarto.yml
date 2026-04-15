@@ -8,13 +8,13 @@ book:
   
   page-footer:
     right: |
-      <li><a href="https://github.com/annasmyk/JD_Quarto_Book" target="blank">Code source</a></li>
+      <li><a href="https://github.com/jdemetra/JD_Quarto_Book" target="blank">Code source</a></li>
     left: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
   repo-actions: [edit,issue]
   site-url: https://jdemetra-new-documentation.netlify.app/
-  repo-url: https://github.com/annasmyk/JD_Quarto_Book
+  repo-url: https://github.com/jdemetra/JD_Quarto_Book
   repo-branch: main
   # cover-image: resources/logo-utilitr.png
   # favicon: resources/logo-utilitr.png
@@ -85,7 +85,7 @@ book:
           city: Madrid
           url: "https://www.ine.es/"
       role: "Collaborator"
-  date: "03/10/2026"
+  date: "03/26/2026"
   page-navigation: true
   chapters:
     - index.qmd
@@ -134,12 +134,12 @@ book:
         # - M-state-space-framework.qmd ##(#m-ssf)
         - M-Temp-Disagg-Bench.qmd ##(#m-bench)
         - M-revision-analysis.qmd ##(#m-revs)
-    -  Output_Description.qmd ##(#output-chap)
-    - part: P-Use-Cases.qmd ##(#part-U)
-      chapters:
-        - U-forecasting-nowcasting.qmd ##(#u-now)
-        - U-outlier-detection.qmd ##(#u-out)
-        - U-refreshing-data.qmd ##(#u-refresh)
+    # -  Output_Description.qmd ##(#output-chap)
+    # - part: P-Use-Cases.qmd ##(#part-U)
+    #   chapters:
+    #     - U-forecasting-nowcasting.qmd ##(#u-now)
+    #     - U-outlier-detection.qmd ##(#u-out)
+    #     - U-refreshing-data.qmd ##(#u-refresh)
     - references.bib
 bibliography: references.bib
 

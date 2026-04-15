@@ -697,7 +697,7 @@
     "href": "T-GUI-SA-Modelling-Features.html#in-this-chapter",
     "title": "GUI: SA and Modelling Features",
     "section": "In this chapter",
-    "text": "In this chapter\nThis chapter covers specific Seasonal Adjustment and Modelling features. Modelling refers to reg-ARIMA or Tramo when used stand alone and not as the first (pre-adjustment) step in seasonal adjustment.\nNote that the menu and window structure as well as options and results are almost identical in both cases.\nAdditional chapters related to GUI features, provide information on:\n\nOverview\nData visualization and generic time series tools\nOutput: series, parameters and diagnostics\n\nCurrently, this chapter is widely incomplete, additional content will be uploaded in the coming weeks."
+    "text": "In this chapter\nThis chapter covers specific Seasonal Adjustment and Modelling features. Modelling refers to reg-ARIMA or Tramo when used stand alone and not as the first (pre-adjustment) step in seasonal adjustment.\nNote that the menu and window structure as well as options and results are almost identical in both cases.\nImportant TOPICS\n\ncreating a workspace\ndefining and applying specifications\n\nAdditional chapters related to GUI features, provide information on:\n\nOverview\nData visualization and generic time series tools\nOutput: series, parameters and diagnostics"
   },
   {
     "objectID": "T-GUI-SA-Modelling-Features.html#how-to-create-a-workspace",
@@ -711,7 +711,14 @@
     "href": "T-GUI-SA-Modelling-Features.html#workspace-window",
     "title": "GUI: SA and Modelling Features",
     "section": "Workspace Window",
-    "text": "Workspace Window\nThe workspace window displays the characteristics of a workspace but gives also access to other peripheric routines, the results of which won’t be stored in a workspace (as data structure)\nContent of Workspace window, divided into three sections:\n\nModelling (contains the default and user-defined specifications for modelling; and the output from the modelling process)\nSeasonal adjustment (contains the default and user-defined specifications for seasonal adjustment and the output from the seasonal adjustment process),\nUtilities (calendars and user defined variables).\n\nYou can click on the image in the area that interests you:\n  &lt;area alt=“modelling” title=“Modeling” href=“#modelling-window” coords=“0,50,554,206 shape=”rect”&gt;   \n\n\nThe Workspace window\n\n\nModelling\nIn the modelling section, you can create documents based on the reg-ARIMA or Tramo only specification (which are the same as the ones used for the pre-treatment phase of seasonal adjustment with X-13-ARIMA (Reg-ARIMA) and Tramo-Seats (Tramo) and thus described in the SA chapter).\nYou can also use the extended airline algorithm with the plugin jdplus-highfreq-desktop-plugin to do the pre-treatment of high frequency data.\n\n\n\nThe specifications and output of the modelling procedure are displayed in the Workspace window.\n\n\n\nThe Workspace window with the nodes for the modelling procedure marked\n\n\n\n\nSeasonal adjustment\nThis window allows to set up and launch a seasonal adjustment process.\nSome plugins give you additional features:\n\njdplus-highfreq-desktop-plugin give you access to the extended airline algorithm\njdplus-x12plus-desktop give you access to the x12plus algorithm\njdplus-sts-desktop and jdplus-stl-desktop give you access to the stlplus and mstlplus algorithm\n\nThis section is divided into two parts:\n\nSpecifications, which presents parameters of the seasonal adjustment procedure.\nOutput, which explains a typical output produced by the seasonal adjustment procedure.\n\nThe specifications and output for the seasonal adjustment procedure are displayed in the Workspace window under the Seasonal adjustment item.\n\n\n\nThe Workspace window with the nodes for the seasonal adjustment procedure marked\n\n\n\nSpecifications\n\n\nOutput\n\nResults panel\nThe blank zone in the figure above (on the right of the view) is the location where JDemetra+ displays various windows. More than one window can be displayed at the same time. Windows can overlap with each other with the foremost window being the one in focus or active. The active window has a darkened title bar. The windows in the results panel can be arranged in many different ways, depending on the user’s needs. The example below shows one of the possible views of this panel. The results of the user’s analysis are displayed in an accompanying window. The picture below shows two panels – a window containing seasonal adjustment results (upper panel) and another one containing an autoregressive spectrum (lower panel).\n\n\n\nThe Results panel filled with two windows"
+    "text": "Workspace Window\nThe workspace window displays the characteristics of a workspace but gives also access to other peripheric routines, the results of which won’t be stored in a workspace (as data structure)\nContent of Workspace window, divided into three sections:\n\nModelling (contains the default and user-defined specifications for modelling; and the output from the modelling process)\nSeasonal adjustment (contains the default and user-defined specifications for seasonal adjustment and the output from the seasonal adjustment process),\nUtilities (calendars and user defined variables).\n\nYou can click on the image in the area that interests you:\n  &lt;area alt=“modelling” title=“Modeling” href=“#modelling-window” coords=“0,50,554,206 shape=”rect”&gt;   \n\n\nThe Workspace window\n\n\nModelling\nIn the modelling section, you can create documents based on the reg-ARIMA or Tramo only specification (which are the same as the ones used for the pre-treatment phase of seasonal adjustment with X-13-ARIMA (Reg-ARIMA) and Tramo-Seats (Tramo) and thus described in the SA chapter).\nYou can also use the extended airline algorithm with the plugin jdplus-highfreq-desktop-plugin to do the pre-treatment of high frequency data.\n\n\n\nThe specifications and output of the modelling procedure are displayed in the Workspace window.\n\n\n\nThe Workspace window with the nodes for the modelling procedure marked\n\n\n\n\nSeasonal adjustment\nThis window allows to set up and launch a seasonal adjustment process.\nSome plugins give you additional features:\n\njdplus-highfreq-desktop-plugin give you access to the extended airline algorithm\njdplus-x12plus-desktop give you access to the x12plus algorithm\njdplus-sts-desktop and jdplus-stl-desktop give you access to the stlplus and mstlplus algorithm\n\nThis section is divided into two parts:\n\nSpecifications, which presents parameters of the seasonal adjustment procedure.\nOutput, which explains a typical output produced by the seasonal adjustment procedure.\n\nThe specifications and output for the seasonal adjustment procedure are displayed in the Workspace window under the Seasonal adjustment item.\n\n\n\nThe Workspace window with the nodes for the seasonal adjustment procedure marked\n\n\n\nSpecifications Left Node"
+  },
+  {
+    "objectID": "T-GUI-SA-Modelling-Features.html#output",
+    "href": "T-GUI-SA-Modelling-Features.html#output",
+    "title": "GUI: SA and Modelling Features",
+    "section": "Output",
+    "text": "Output\n\nResults panel\nThe blank zone in the figure above (on the right of the view) is the location where JDemetra+ displays various windows. More than one window can be displayed at the same time. Windows can overlap with each other with the foremost window being the one in focus or active. The active window has a darkened title bar. The windows in the results panel can be arranged in many different ways, depending on the user’s needs. The example below shows one of the possible views of this panel. The results of the user’s analysis are displayed in an accompanying window. The picture below shows two panels – a window containing seasonal adjustment results (upper panel) and another one containing an autoregressive spectrum (lower panel).\n\n\n\nThe Results panel filled with two windows\n\n\n###Specifications Right-Box"
   },
   {
     "objectID": "T-GUI-SA-Modelling-Features.html#statistical-methods",
@@ -726,6 +733,13 @@
     "title": "GUI: SA and Modelling Features",
     "section": "Direct-Indirect method",
     "text": "Direct-Indirect method\n\nContext\nEconomic time series are often computed and reported according to a certain classification or a breakdown.\nFor example, in National Accounts total consumption expenditures are a sum of individual consumption expenditures and General Government & NPISHs consumption expenditures. Therefore, the seasonally adjusted aggregates can be computed either by aggregating the seasonally adjusted components (indirect adjustment) or adjusting the aggregate and the components independently (direct adjustment). The point is that these two strategies result in different seasonally adjusted aggregates. As neither theoretical nor empirical evidence uniformly favours one approach over the other, the choice of the seasonal adjustment strategy concerning aggregated series depends on the user. Guidance in this field is given in the Eurostat guidelines on seasonal adjustment (guidelines2015?).\n\n\nIn GUI v2\nJDemetra+ offers a Direct–Indirect Seasonal Adjustment functionality that facilitates the comparison of the results from these two strategies, which is launched from the main menu.\n\n\n\n\n\n\nOnly in v2\n\n\n\nThis Direct-Indirect method is not implemented in v3.\n\n\n\n\n\nThe Direct-Indirect Seasonal Adjustment tool\n\n\nTo start the analysis drag and drop time series to the top-left panel. The panel on the right presents the sum of selected series.\n\n\n\nChoosing series for an analysis\n\n\nBy going to the main menu and clicking on Window → Properties, one can specify benchmarking options for direct-indirect comparison.\nBe aware that the properties window displays the properties of an active item. Therefore, first click on the time series graph in the picture below and then activate the Properties window.\n\n\n\nThe properties of the Direct - Indirect seasonal adjustment functionality\n\n\nBy default, the pre-defined Tramo-Seats specification is used (RSAfull) for seasonal adjustment of a dataset. To change it, click on the button marked in the picture below. This will provide you with the alternative specifications. Here the user defined specification named My spec is chosen.\n\n\n\nChoosing a specification for the analysis\n\n\nNext, run the process by clicking the button with the green arrow.\n\n\n\nRunning a process\n\n\nThe bottom panel presents the detailed results. The seasonality test node presents the outcome of the seasonality tests performed for the aggregated series adjusted directly (Direct sa) and indirectly (Indirect sa). The reason for presenting these tests here is that the presence of residual seasonality and calendar effects should be monitored, especially in the indirectly adjusted series (see (guidelines2015?)). It might happen that the seasonality is successfully removed from the components but it is still present in the aggregated series.\n\n\n\nSeasonality tests’ results for a direct seasonal adjustment\n\n\nThe Differences node presents selected different results between the direct and the indirect seasonal adjustment approaches. The Statistics section shows basic statistics (average, standard deviation, minimum and maximum) for the relative differences (%) between the direct and the indirect SA series. Chart contains the graph of the differences, while Table includes the actual values. The Periodogram section presents graphs for two spectral estimators – the periodogram and the auto-regressive spectrum.\n\n\n\nGraph presenting the differences between direct and indirect seasonal adjustment results\n\n\nThe Details node include the basic statistics for the relative differences between the benchmarked and original series as well as the actual time series adjusted directly (Sa series) and indirectly (Benchmarked Sa series).\n\n\n\nDetails of the differences between direct and indirect seasonal adjustment results"
+  },
+  {
+    "objectID": "T-GUI-SA-Modelling-Features.html#Spec-Def-App",
+    "href": "T-GUI-SA-Modelling-Features.html#Spec-Def-App",
+    "title": "GUI: SA and Modelling Features",
+    "section": "Defining and Applying Specifications",
+    "text": "Defining and Applying Specifications"
   },
   {
     "objectID": "T-GUI-SA-Modelling-Features.html#X13-Spec-conv",
@@ -1118,173 +1132,5 @@
     "title": "Revision Analysis",
     "section": "Motivation",
     "text": "Motivation\nwhy ?\nhow to analyse the behaviour of revisions of frequently published (and revised) macro-economic indicators.\ndetails on methods"
-  },
-  {
-    "objectID": "Output_Description.html#in-this-chapter",
-    "href": "Output_Description.html#in-this-chapter",
-    "title": "Output description",
-    "section": "In this chapter",
-    "text": "In this chapter\n\n\n\n\nwhat kind of output is produced ?\nHow to identify an output object given an algorithm ? what is uniquely defined\nWhat are the output format ?\nWhere is the output available ?\nHow to navigate it ?\nHow to generate it ?\nList of displayed/generated series (), e.g\nList of displayed/generated diagnostics, e.g\nList of displayed/generated parameters, e.g\nR packages output specificities (str(m))\n\nin R difference between user-defined and default default means : directly retrievable from sa_model"
-  },
-  {
-    "objectID": "Output_Description.html#scope",
-    "href": "Output_Description.html#scope",
-    "title": "Output description",
-    "section": "Scope",
-    "text": "Scope\nSA algorithms vs the rest\nhere SA related output, set up specific chapter add HF to HF of SA - rjd3…: str(m) - GUI display\ngenerating output from GUI possible only when workspace withh multi-documents\nand add non sa related output list of algos - terror - bench and TD -\nhow does it occur - plug ins R packages"
-  },
-  {
-    "objectID": "Output_Description.html#use-cases",
-    "href": "Output_Description.html#use-cases",
-    "title": "Output description",
-    "section": "Use Cases",
-    "text": "Use Cases\nuse case 1\nuse case 2\nand search advices"
-  },
-  {
-    "objectID": "Output_Description.html#sa-related-algorithms-hf-included",
-    "href": "Output_Description.html#sa-related-algorithms-hf-included",
-    "title": "Output description",
-    "section": "SA related algorithms (HF included ?)",
-    "text": "SA related algorithms (HF included ?)"
-  },
-  {
-    "objectID": "Output_Description.html#what-is-displayed-or-generated",
-    "href": "Output_Description.html#what-is-displayed-or-generated",
-    "title": "Output description",
-    "section": "What is displayed or generated ?",
-    "text": "What is displayed or generated ?\n\nJDemetra+ Output: 3 types of objects\n\nseries (final and intermediate)\nparameters\ndiagnostics\n\n\n\nHow to identify an output object given an algortithm\nwhat is uniquely defined\n\nCODE= concept*algo\n\nex preadjut = reg-arima or tramo\nExample\n\ndiagnostic, some are general, some are algo specific ex F test vs m7\nseries\nparemeter\n\n\n\nWhere is output displayed ?\ndisplayed : you have it vs generated you must act\n\ngui\nR packages\n\n\nHow to navigate it\n\n\n\nHow can output be generated ?\ndictionaries\n\ngenerated to files or R objects (lists of lists)\n\ngui\n\nGathered in 2 data structures\n\ntime series organised in data tables\nindividual data (for each series: parameters and diagnostics)\n\n\nHow to generate it\nHow to identify an output object given an algortithm what is uniquely defined\n\nconcept*algo\n\nex predajsutment = reg-arima or ttramo\nExample\n\ndiagnostic\nseries\nparemeter\n\nHow to identify an output object given an algortithm what is uniquely defined\n\nconcept*algo\n\nex predajsutment = reg-arima or ttramo\nExample\n\ndiagnostic\nseries\nparemeter\n\n\n\nCruncher\nhere output code, input = cruncher params, table is in cruncher chapter (link )\nX13-Arima\n\nsignal what is out but not relevant\n\nTramo seats\n\n\nR Dicos /R user defined output\nHERE\nrjd3x13, rjd3tramoseats\nlink to doc in rjdverse..\n\nFiltering useless output\nTS only in X13 and vice versa ?\n\n\nDescripitions in JAVA\n\n\nTable Description\ntype name M7 JD+ output name decomp.M7 .. .."
-  },
-  {
-    "objectID": "Output_Description.html#differences-between-v2-and-v3",
-    "href": "Output_Description.html#differences-between-v2-and-v3",
-    "title": "Output description",
-    "section": "Differences between V2 and V3",
-    "text": "Differences between V2 and V3\n\nBelow different lists We flag differences between v2 and v3\n\n\n\nIn the remainder list of nammes Link (auto) with R dictionaries ?"
-  },
-  {
-    "objectID": "Output_Description.html#series",
-    "href": "Output_Description.html#series",
-    "title": "Output description",
-    "section": "Series",
-    "text": "Series\nstored by algo, unique concept\n\nTable structure !\nas pb of width tables broken in 2 parts\nwhere are auxiliary excel files auxiliary R code all in “Documents/JD_Quarto_Book_AUX”\n\npart 1: GUI + cruncher\nname description\n\n\npart 2: R with code\n\n\n\nFinal SA series\n\n\nPreadjustement / modelling\nidentical for reg-arima and ts\n\n\nX-11 decomposition (start 1)\n\npart 2\n\n\n\n\n\n\n\n\n\n\nCode\nDescription\nGUI display (Results Panel)\nGUI output - input\ncruncher V3 output\n\n\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB2\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB3\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB4\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB5\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB6\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB7\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB8\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB9\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB10\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB11\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB12\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB13\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB14\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\n\n\n\n\nCode\nDescription\nGUI display (Results Panel)\nGUI output - input\ncruncher V3 output\n\n\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\n\n\n\n\n\n\n\n\n\n\nSeats decomposition (2)"
-  },
-  {
-    "objectID": "Output_Description.html#diagnostics",
-    "href": "Output_Description.html#diagnostics",
-    "title": "Output description",
-    "section": "Diagnostics",
-    "text": "Diagnostics\nobj have all the tests used in BQ and displayed in GUI\nstand alone tests: - in GUI - in R (rjd3toolkit)\n\nTests on residuals\nONE TEST example : LB TEST, link to M chap what do we describe here\n\n\nSeasonality tests\nONE TEST example : Friedman TEST, link to M chap what do we describe here"
-  },
-  {
-    "objectID": "Output_Description.html#parameters",
-    "href": "Output_Description.html#parameters",
-    "title": "Output description",
-    "section": "Parameters",
-    "text": "Parameters\nlast"
-  },
-  {
-    "objectID": "Output_Description.html#cruncher-output-special",
-    "href": "Output_Description.html#cruncher-output-special",
-    "title": "Output description",
-    "section": "Cruncher Output (special)",
-    "text": "Cruncher Output (special)\nto cruncher chap ?"
-  },
-  {
-    "objectID": "Output_Description.html#r-packages-strmodel-output",
-    "href": "Output_Description.html#r-packages-strmodel-output",
-    "title": "Output description",
-    "section": "R packages (str(model)) output",
-    "text": "R packages (str(model)) output\nsee how it works in part R code will be in tables ?"
-  },
-  {
-    "objectID": "Output_Description.html#non-sa-related-algorithms",
-    "href": "Output_Description.html#non-sa-related-algorithms",
-    "title": "Output description",
-    "section": "Non SA related algorithms",
-    "text": "Non SA related algorithms"
-  },
-  {
-    "objectID": "Output_Description.html#r-packages-strmodel-output-1",
-    "href": "Output_Description.html#r-packages-strmodel-output-1",
-    "title": "Output description",
-    "section": "R packages (str(model)) output",
-    "text": "R packages (str(model)) output"
-  },
-  {
-    "objectID": "P-Use-Cases.html",
-    "href": "P-Use-Cases.html",
-    "title": "Use cases",
-    "section": "",
-    "text": "This part provides detailed examples of use of JDemetra+ related tools.\n\nIn this part:\n\nForecasting and nowcasting examples\nSeveral ways for detecing outliers\nRefreshing a series or workspace"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#in-this-chapter",
-    "href": "U-forecasting-nowcasting.html#in-this-chapter",
-    "title": "Forecasting and Nowcasting",
-    "section": "In this chapter",
-    "text": "In this chapter"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#case-study-presentation",
-    "href": "U-forecasting-nowcasting.html#case-study-presentation",
-    "title": "Forecasting and Nowcasting",
-    "section": "Case Study presentation",
-    "text": "Case Study presentation\nData forecasts by industry sector relating to deflated VAT turnover still unavailable for the “Flash” estimate of Belgian GDP Two-step methodology Pre-selection of a restricted number of predictors (mostly from business surveys) Model selection, definition and prediction Use of the rjdverse packages: rjd3toolkit, rjd3workspace, rjd3providers, rjd3tramoseats, rjd3sts and rjd3nowcasting Types of models considered RegARIMA models: “supervised” TRAMO with or without predictor(s) ADL(1,1), ADL(1,0) with fixed or variable coefficients (predictors) Structural models + regressor(s) with fixed or variable coefficients (predictors) Dynamic factor models (1 factor)"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#packages-relevant-for-nowcasting",
-    "href": "U-forecasting-nowcasting.html#packages-relevant-for-nowcasting",
-    "title": "Forecasting and Nowcasting",
-    "section": "Packages relevant for nowcasting",
-    "text": "Packages relevant for nowcasting\nrjd3toolkit: statistical toolkit and modelling support, for example: calendar_td(): generation of regressors for trading days effects ao_variable() / ls_variable(): generation of regressors for different types of outliers differencing_fast(): automatic identification of differentiation orders to achieve stationarity ljungbox(), jarquebera(), etc.: diagnostics on residuals rjd3workspace & rjd3providers: interactivity with GUI workspaces rjd3tramoseats : RegARIMA models tramo_forecast(): prediction using TRAMO rjd3sts: Structural / State Space models rjd3nowcasting: Dynamic Factor Models"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#reg-arimla-models",
-    "href": "U-forecasting-nowcasting.html#reg-arimla-models",
-    "title": "Forecasting and Nowcasting",
-    "section": "Reg Arimla Models",
-    "text": "Reg Arimla Models\nForecasting by means of a RegARIMA model (TRAMO) with rjd3tramoseats (full code: here):"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#gui",
-    "href": "U-forecasting-nowcasting.html#gui",
-    "title": "Forecasting and Nowcasting",
-    "section": "GUI",
-    "text": "GUI\nHybrid GUI/R approach for RegARIMA models (and seasonal [pre-]adjustment)"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#state-space",
-    "href": "U-forecasting-nowcasting.html#state-space",
-    "title": "Forecasting and Nowcasting",
-    "section": "State Space",
-    "text": "State Space\n\nState Space modelling: structural models, regression with variable coefficient, etc.\n\n\nPrediction by means of a Basic Structural Model with regressors: code here"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#dynamic-factor-models",
-    "href": "U-forecasting-nowcasting.html#dynamic-factor-models",
-    "title": "Forecasting and Nowcasting",
-    "section": "Dynamic Factor models",
-    "text": "Dynamic Factor models"
-  },
-  {
-    "objectID": "U-forecasting-nowcasting.html#conclusion",
-    "href": "U-forecasting-nowcasting.html#conclusion",
-    "title": "Forecasting and Nowcasting",
-    "section": "Conclusion",
-    "text": "Conclusion\nCross-validation shows gains in accuracy in almost all branches of activity compared with the previous methodology (“unsupervised” TRAMO, without predictor) Approximatively 2/3 of these gains come from switching to a “supervised” TRAMO method (without predictor) Importance of defining a national calendar for monthly data Importance of properly defining outliers (especially during Covid period) Overall, the predictive power of business surveys turns on to be relatively weak However, this masks disparities and pleasant surprises (e.g. the question on weather conditions in the construction sector)"
-  },
-  {
-    "objectID": "U-outlier-detection.html#in-this-chapter",
-    "href": "U-outlier-detection.html#in-this-chapter",
-    "title": "Outlier detection",
-    "section": "In this chapter",
-    "text": "In this chapter"
-  },
-  {
-    "objectID": "U-refreshing-data.html#in-this-chapter",
-    "href": "U-refreshing-data.html#in-this-chapter",
-    "title": "Refreshing data",
-    "section": "In this chapter",
-    "text": "In this chapter"
   }
 ]
